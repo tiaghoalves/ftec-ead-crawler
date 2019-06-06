@@ -1,0 +1,38 @@
+# PROJETO - APP WEB CRAWLER SCRAPPER DE DADOS DOS CURSOS DO MOODLE EAD FTEC
+
+Tools:
+    - API NodeJs: Next(?), Express(?)
+    - Apify - Actors, Crawler e outros services
+        Inputs:
+            - Url: 'https://eadgraduacao.ftec.com.br/login/index.php'
+
+		Outputs:
+			- Notification de atividades pendentes
+			- Agendar datas de entrega de atividades/provas
+			- Montar interface web/mobile (PWA) com os dados do crawler
+
+    - Client web/mobile
+    - ¹ PWA(?)
+    - Integrar com API do Trello
+    - Docker - Container for dev env
+
+Requisitos e features:
+    ☐ Client web/mobile:
+        - Interface clean & simple & easy to use
+
+    ☐ Notifiação:
+        - Via 'push notification' para app mobile (Android, for a while)
+        - Via email pessoal (tiago.alves718@gmail.com/stvtiago@gmail.com)
+        - OS notification (maybe): Windows/Linux (SO?)
+
+    ☐ Integração API Trello:
+        - Sincronizar cards do trello com as atividades do moodle
+            - Datas de provas/trabalhos
+            - Datas limites de atividades
+        - Usar apify para rodar os actors em cloud
+
+    ☐ Docker:
+        - Container para server/api e client
+            ☐ Criar dockerfile
+
+¹ estudar se todos os requisitos são possíveis de serem implementados em uma PWA
