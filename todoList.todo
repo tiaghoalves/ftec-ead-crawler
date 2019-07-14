@@ -33,6 +33,8 @@ Requisitos e features:
 
     ☐ @low Docker:
         - Container para server/api e client
-            ☐ Criar dockerfile
+			☐ Criar dockerfile
+		- Container para apify:
+			✔ Criar Dockerfile usando a image disponível no docker hub @done(19-07-14 00:32)
 
 ¹ estudar se todos os requisitos são possíveis de serem implementados em uma PWA
