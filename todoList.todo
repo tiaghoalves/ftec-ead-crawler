@@ -2,16 +2,15 @@
 
 Tools:
     - API NodeJs: Next(?), Express(?)
-    - Apify - Actors, Crawler e outros services
-    - Client web/mobile
-    - ¹ PWA(?)
+    - Apify - Actors, Crawler e outros services @started(19-07-14 00:36)
+    - Client web/mobile ¹ PWA(?)
     - Integrar com API do Trello
     - @low Docker - Container for dev env
 
 Requisitos e features:
-    ☐ Apify:
+    ☐ Apify: @started(19-07-14 00:36)
         Inputs:
-            - Url: 'https://eadgraduacao.ftec.com.br/login/index.php'
+            - Url: 'https://eadgraduacao.ftec.com.br/login/index.php' @started(19-07-14 00:36)
 
         Outputs:
             - Notification de atividades pendentes
@@ -31,10 +30,10 @@ Requisitos e features:
             - Datas limites de atividades
         - Usar apify para rodar os actors em cloud
 
-    ☐ @low Docker:
-        - Container para server/api e client
+    ☐ @low Docker: @started(19-07-14 00:35)
+        - Container para server/api e client @started(19-07-14 00:35)
 			☐ Criar dockerfile
-		- Container para apify:
+		- Container para apify: @started(19-07-14 00:35)
 			✔ Criar Dockerfile usando a image disponível no docker hub @done(19-07-14 00:32)
 
 ¹ estudar se todos os requisitos são possíveis de serem implementados em uma PWA
