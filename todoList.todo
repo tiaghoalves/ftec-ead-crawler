@@ -2,21 +2,19 @@
 
 Tools:
     - API NodeJs: Next(?), Express(?)
-    - Apify - Actors, Crawler e outros services @started(19-07-14 00:36)
-    - Client web/mobile ¹ PWA(?)
+    - Apify - Actors, Crawler e outros services
+    - ASP.Net Core MVC - Client web/mobile ¹ Angular PWA(?)
     - Integrar com API do Trello
-    - @low Docker - Container for dev env
+    - Docker - Container for dev env
 
 Requisitos e features:
     ☐ Apify: @started(19-07-14 00:36)
         Inputs:
             - Url: 'https://eadgraduacao.ftec.com.br/login/index.php' @started(19-07-14 00:36)
-
         Outputs:
             - Notification de atividades pendentes
             - Agendar datas de entrega de atividades/provas
             - Montar interface web/mobile (PWA) com os dados do crawler
-
 
     ☐ @high Client web/mobile/PWA
         Notifiação:
