@@ -3,7 +3,7 @@
 // It is referenced from the "scripts" section of the package.json file,
 // so that it can be started by running "npm start".
 
-const Apify = require('apify');
+import Apify from 'apify';
 
 Apify.main(async () => {
     // Get input of the actor.
@@ -15,7 +15,7 @@ Apify.main(async () => {
     console.dir(input);
 
 	const requestQueue = await Apify.openRequestQueue();
-    const pseudoUrls = [new Apify.PseudoUrl('https://www.iana.org/[.*]')];
+    const pseudoUrls = [new Apify.PseudoUrl('https://eadgraduacao.ftec.com.br/[.*]')];
 
     await requestQueue.addRequest(new Apify.Request({
         url: 'https://eadgraduacao.ftec.com.br/login/index.php'
@@ -30,7 +30,7 @@ Apify.main(async () => {
         }) => {
             const title = await page.title();
             let selector = 'a';
-            console.log(`Title of ${request.url}: ${title}`);çç
+            console.log(`Title of ${request.url}: ${title}`);
 
             await Apify.utils.enqueueLinks({
                 page,
