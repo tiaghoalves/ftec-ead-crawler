@@ -1,1 +1,5 @@
-{}
+{
+	"maxRequestsPerCrawl": 50,
+	"maxConcurrency": 10,
+	"maxEventLoopOverloadedRatio": 0.9
+}
